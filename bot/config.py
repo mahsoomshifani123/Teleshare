@@ -36,19 +36,19 @@ class Config(BaseSettings):
     API_ID: int
     API_HASH: str
     BOT_TOKEN: str
-    BOT_WORKER: int = 8
-    BOT_SESSION: str = "Zaws-File-Share"
-    BOT_MAX_MESSAGE_CACHE_SIZE: int = 100
+    BOT_WORKER: int = 50
+    BOT_SESSION: str = "Mahsoom-File-Share"
+    BOT_MAX_MESSAGE_CACHE_SIZE: int = 1000
 
     MONGO_DB_URL: MongoSRVDsn
-    MONGO_DB_NAME: str = "Zaws-File-Share"
+    MONGO_DB_NAME: str = "Mahsoom-File-Share"
 
     # Bot main config
     RATE_LIMITER: bool = True
     BACKUP_CHANNEL: int
     ROOT_ADMINS_ID: list[int]
     PRIVATE_REQUEST: bool = False
-    PROTECT_CONTENT: bool = True
+    PROTECT_CONTENT: bool = False
     FORCE_SUB_CHANNELS: list[int]
     AUTO_GENERATE_LINK: bool = True
 
