@@ -8,12 +8,12 @@ from bot.database import MongoDB
 
 class SettingsModel(BaseModel):
     FORCE_SUB_MESSAGE: str | int = "Please join the channel(s) first."
-    START_MESSAGE: str | int = "I am a file-sharing bot."
+    START_MESSAGE: str | int = "I am a file-sharing bot. My Owner @Mahsoommjm"
     USER_REPLY_TEXT: str | int = "idk"
 
-    AUTO_DELETE_MESSAGE: str | int = "This file(s) will be deleted within {} minutes"
+    AUTO_DELETE_MESSAGE: str | int = "This file(s) will be deleted within {} minutes,please forward this file to youre saved messages"
     AUTO_DELETE_SECONDS: int = 300
-    GLOBAL_MODE: bool = False
+    GLOBAL_MODE: bool = True
     BACKUP_FILES: bool = True
 
 
