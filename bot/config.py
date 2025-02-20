@@ -44,11 +44,11 @@ class Config(BaseSettings):
     API_HASH: str
     BOT_TOKEN: str
     BOT_WORKER: int = 8
-    BOT_SESSION: str = "moviestore"
+    BOT_SESSION: str = "mahsoom-File-Share"
     BOT_MAX_MESSAGE_CACHE_SIZE: int = 100
 
     MONGO_DB_URL: MongoSRVDsn
-    MONGO_DB_NAME: str = "moviestore"
+    MONGO_DB_NAME: str = "mahsoom-File-Share"
 
     # Bot main config
     RATE_LIMITER: bool = True
