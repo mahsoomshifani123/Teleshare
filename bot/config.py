@@ -43,7 +43,7 @@ class Config(BaseSettings):
     API_ID: int
     API_HASH: str
     BOT_TOKEN: str
-    BOT_WORKER: int = 8
+    BOT_WORKER: int = 800
     BOT_SESSION: str = "Mahsoom-File-Share"
     BOT_MAX_MESSAGE_CACHE_SIZE: int = 100
 
