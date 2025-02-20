@@ -21,7 +21,7 @@ class SettingsModel(BaseModel):
 
     FORCE_SUB_MESSAGE: str | int = "Please join the channel(s) first."
     BANNED_USER_MESSAGE: str | int = "You have been banned from using this bot."
-    START_MESSAGE: str | int = "I am a file-sharing bot."
+    START_MESSAGE: str | int = "I am a file-sharing bot. contact @Mahsoommjm"
     ADDITIONAL_MESSAGE: str | int = 0
     USER_REPLY_TEXT: str | int = "idk"
     AUTO_DELETE_MESSAGE: str | int = "This file(s) will be deleted within {} minutes"
