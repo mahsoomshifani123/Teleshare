@@ -44,11 +44,11 @@ class Config(BaseSettings):
     API_HASH: str
     BOT_TOKEN: str
     BOT_WORKER: int = 8
-    BOT_SESSION: str = "Zaws-File-Share"
+    BOT_SESSION: str = "mahsoommah"
     BOT_MAX_MESSAGE_CACHE_SIZE: int = 100
 
     MONGO_DB_URL: MongoSRVDsn
-    MONGO_DB_NAME: str = "Zaws-File-Share"
+    MONGO_DB_NAME: str = "mahsoommah"
 
     # Bot main config
     RATE_LIMITER: bool = True
